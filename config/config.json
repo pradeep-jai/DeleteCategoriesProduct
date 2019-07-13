@@ -1,0 +1,10 @@
+{
+    "development" : {
+        "PORT" : 3019,
+        "MONGODB_URL" : "mongodb://localhost:27017/CrudDB"
+    },
+    "production" : {
+        "PORT" : 80,
+        "MONGODB_URL" : "mongodb://xxxxx/DB_Name"
+    }
+}
