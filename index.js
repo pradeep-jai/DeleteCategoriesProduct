@@ -5,6 +5,7 @@ require('./models/db');
 /* Grab our dependencies */
 const express = require('express');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 
 /* Require index.router file */
 const routerIndex = require('./routes/index.router');
